@@ -1,0 +1,11 @@
+C:\Users\b.mamar\source\repos\Identityserver4Demo\WebAppDemo\bin\Debug\netcoreapp2.0\WebAppDemo.deps.json
+C:\Users\b.mamar\source\repos\Identityserver4Demo\WebAppDemo\bin\Debug\netcoreapp2.0\WebAppDemo.runtimeconfig.json
+C:\Users\b.mamar\source\repos\Identityserver4Demo\WebAppDemo\bin\Debug\netcoreapp2.0\WebAppDemo.runtimeconfig.dev.json
+C:\Users\b.mamar\source\repos\Identityserver4Demo\WebAppDemo\bin\Debug\netcoreapp2.0\WebAppDemo.dll
+C:\Users\b.mamar\source\repos\Identityserver4Demo\WebAppDemo\bin\Debug\netcoreapp2.0\WebAppDemo.pdb
+C:\Users\b.mamar\source\repos\Identityserver4Demo\WebAppDemo\obj\Debug\netcoreapp2.0\WebAppDemo.csprojResolveAssemblyReference.cache
+C:\Users\b.mamar\source\repos\Identityserver4Demo\WebAppDemo\obj\Debug\netcoreapp2.0\WebAppDemo.csproj.CoreCompileInputs.cache
+C:\Users\b.mamar\source\repos\Identityserver4Demo\WebAppDemo\obj\Debug\netcoreapp2.0\WebAppDemo.AssemblyInfoInputs.cache
+C:\Users\b.mamar\source\repos\Identityserver4Demo\WebAppDemo\obj\Debug\netcoreapp2.0\WebAppDemo.AssemblyInfo.cs
+C:\Users\b.mamar\source\repos\Identityserver4Demo\WebAppDemo\obj\Debug\netcoreapp2.0\WebAppDemo.dll
+C:\Users\b.mamar\source\repos\Identityserver4Demo\WebAppDemo\obj\Debug\netcoreapp2.0\WebAppDemo.pdb

@@ -1,0 +1,11 @@
+c:\users\b.mamar\source\repos\Identityserver4Demo\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.deps.json
+c:\users\b.mamar\source\repos\Identityserver4Demo\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.json
+c:\users\b.mamar\source\repos\Identityserver4Demo\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.runtimeconfig.dev.json
+c:\users\b.mamar\source\repos\Identityserver4Demo\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.dll
+c:\users\b.mamar\source\repos\Identityserver4Demo\AuthServer\bin\Debug\netcoreapp2.0\AuthServer.pdb
+c:\users\b.mamar\source\repos\Identityserver4Demo\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csprojResolveAssemblyReference.cache
+c:\users\b.mamar\source\repos\Identityserver4Demo\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.csproj.CoreCompileInputs.cache
+c:\users\b.mamar\source\repos\Identityserver4Demo\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfoInputs.cache
+c:\users\b.mamar\source\repos\Identityserver4Demo\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.AssemblyInfo.cs
+c:\users\b.mamar\source\repos\Identityserver4Demo\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.dll
+c:\users\b.mamar\source\repos\Identityserver4Demo\AuthServer\obj\Debug\netcoreapp2.0\AuthServer.pdb
