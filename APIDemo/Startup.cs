@@ -32,7 +32,7 @@ namespace APIDemo
                 {
                     options.Authority = "http://localhost:5000";
                     options.RequireHttpsMetadata = false;
-
+                    options.RequireHttpsMetadata = false;
                     options.ApiName = "ApiDemo";
                 });
         }

@@ -38,7 +38,7 @@ namespace WebAppDemo
                     options.SignInScheme = "Cookies";// issue a cookie using the cookie handler once the OpenID Connect protocol is complete
 
                     options.Authority = "http://localhost:5000"; // indicates that we are trusting IdentityServer
-                    options.RequireHttpsMetadata = false;
+                    options.RequireHttpsMetadata = false; // not using https 
                     options.Resource= "openid";
                     options.ClientId = "MVC";// identity this client
                     options.SaveTokens = true;// persist the tokens from IdentityServer in the cookie 

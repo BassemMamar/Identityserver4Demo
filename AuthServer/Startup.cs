@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using IdentityServer4;
 using Microsoft.AspNetCore.Builder;
@@ -8,6 +9,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using IdentityServer4.Test;
+using Microsoft.Extensions.Logging;
 
 namespace AuthServer
 {
@@ -21,11 +23,12 @@ namespace AuthServer
 
             // configure identity server with in-memory stores, keys, clients and scopes
             services.AddIdentityServer()
-                 .AddDeveloperSigningCredential()
-                .AddInMemoryIdentityResources(Config.GetIdentityResources())
-                .AddInMemoryApiResources(Config.GetApiResources())
-                .AddInMemoryClients(Config.GetClients())
-                .AddTestUsers(Config.GetUsers());
+                .AddDeveloperSigningCredential()
+                 //.AddSigningCredential(new X509Certificate2(@"C:\TempApps\PersonalCertificateForDemos.pfx","123456"))
+                .AddInMemoryIdentityResources(InMemoryConfiguration.GetIdentityResources())
+                .AddInMemoryApiResources(InMemoryConfiguration.GetApiResources())
+                .AddInMemoryClients(InMemoryConfiguration.GetClients())
+                .AddTestUsers(InMemoryConfiguration.GetUsers());
 
             services.AddAuthentication()
                 .AddGoogle("Google", options =>
@@ -40,7 +43,7 @@ namespace AuthServer
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -50,10 +53,11 @@ namespace AuthServer
             app.UseIdentityServer();
             app.UseMvcWithDefaultRoute();
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            loggerFactory.AddConsole();
+            //app.Run(async (context) =>
+            //{
+            //    await context.Response.WriteAsync("Hello World!");
+            //});
         }
     }
 }

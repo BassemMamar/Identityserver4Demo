@@ -10,6 +10,7 @@ using WebAppDemo.Models;
 
 namespace WebAppDemo.Controllers
 {
+   // [Authorize]
     public class HomeController : Controller
     {
         public IActionResult Index()

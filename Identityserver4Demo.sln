@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIDemo", "APIDemo\APIDemo.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientDemo", "ClientDemo\ClientDemo.csproj", "{0EF918B7-85EC-4FFE-BB8E-B0C66C1A1649}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppDemo", "WebAppDemo\WebAppDemo.csproj", "{A2F497C7-DC99-44BD-9E26-9F0A163C31BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppDemo", "WebAppDemo\WebAppDemo.csproj", "{A2F497C7-DC99-44BD-9E26-9F0A163C31BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularDemo", "AngularDemo\AngularDemo.csproj", "{E6BED42C-F1C2-4B03-92EC-21485424D31F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A2F497C7-DC99-44BD-9E26-9F0A163C31BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2F497C7-DC99-44BD-9E26-9F0A163C31BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2F497C7-DC99-44BD-9E26-9F0A163C31BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6BED42C-F1C2-4B03-92EC-21485424D31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BED42C-F1C2-4B03-92EC-21485424D31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BED42C-F1C2-4B03-92EC-21485424D31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BED42C-F1C2-4B03-92EC-21485424D31F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
